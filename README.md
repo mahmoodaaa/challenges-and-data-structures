@@ -1,8 +1,9 @@
 # Whiteboard Challenges
 ## Table of Contents
 - [Array Reversal](#array-reversal)
-- [Most Frequent Number](#most-frequent-number) 
+- [Most Frequent Number](#most-frequent-number)
 - [Minimum Value](#minimum-value)
+-[Reverse-Characters](#reverse-characters)
 
 ## Array Reversal
 
@@ -33,7 +34,16 @@ Create a function that finds the most frequently occurring number in an array.
 ### Approach
 1. Create an object to store number frequencies
 2. Iterate through the array and count occurrences
-3. Find the number with the highest frequency
+3. Find the number with the highest frequency# Revers-Characters
+
+
+## Contributing
+
+If you would like to contribute to the Revers-Characters project, please fork this repository and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 4. Return the most frequent number
 
 ### Example
@@ -66,3 +76,28 @@ Output: 2
 
 ### Whiteboard Image
 ![MinimumValue](./minValue/minmumValue-miro.png)
+
+
+
+
+
+## Introduction
+
+This is a brief introduction to the Revers-Characters project.
+
+## Reverse-Characters
+
+Here are some images of the Revers-Characters:
+
+### Character 1
+
+![Revers-Character 1](./Reverse-Characters/reverse-images/code.png)
+
+### Character 2
+
+![Revers-Character 2](./Reverse-Characters/reverse-images/output1.png)
+
+### Character 3
+
+![Revers-Character 3](./Reverse-Characters/reverse-images/output2.png)
+
