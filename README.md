@@ -91,17 +91,4 @@ Here are some images of the Revers-Characters:
 
 ### Character 1
 
-![Revers-Character 1](./Reverse-Characters/reverse-images/code.png)
-
-### Character 2
-
-![Revers-Character 2](./Reverse-Characters/reverse-images/output1.png)
-
-### Character 3
-
-![Revers-Character 3](./Reverse-Characters/reverse-images/output2.png)
-
-### Character 4 
-
-![Revers-Character 4](./Reverse-Characters/reverse-images/exp.png)
-
+![Revers-Character 1](./Reverse-Characters/reverse-images/reverse
