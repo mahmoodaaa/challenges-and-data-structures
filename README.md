@@ -104,7 +104,7 @@ Here are some images of the Revers-Characters:
 Create a linked list data structure with basic operations including insertion, deletion, and traversal.
 
 ### Whiteboard Image
-![Linked List Implementation](./all-whiteboard.png)
+![Linked List Implementation](./dataStructures/LinkedList/Linked-List-Implementaions/whitboard-all.png)
 
 
 
