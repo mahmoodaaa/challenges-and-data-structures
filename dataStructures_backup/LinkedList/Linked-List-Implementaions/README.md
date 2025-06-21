@@ -42,37 +42,30 @@ Design a linked list with the following operations:
 ## 👁️ Visual (Whiteboard)
 
 ### `add`
-![add](./docs/add.png)
+![add](./add.png)
 
 ### `include(search)`
-![include(search)](./docs/include(serach).png)
+![include(search)](./include(serach).png)
 
 ### `insertAt`
-![insertAt](./docs/insertAt.png)
+![insertAt](./insertAt.png)
 
 ### `print`
-![print](./docs/print.png)
+![print](./print.png)
 
 ### `removeFirst`
-![removeFirst](./docs/reomveFirst.png)
+![removeFirst](./reomveFirst.png)
 
 ### `test`
-![test](./docs/test.png)
+![test](./test.png)
 
 ### `test02`
-![test02](./docs/test02.png)
+![test02](./test02.png)
 
 ### `whitboard-all`
-![whitboard-all](./docs/whitboard-all.png)
+![whitboard-all](./whitboard-all.png)
 
 
-### `reverseWhiteboard`
 
-![reverseWhiteboard](./docs/reverseWhiteboard.png)
 
-![reverseTest](./docs/reverseTest.png)
-
-### `add-reversere-app`
-
-![add-reversere-app](./docs/add-reversere-app.js.png)
 

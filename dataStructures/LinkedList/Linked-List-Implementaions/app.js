@@ -1,5 +1,5 @@
 const LinkedList = require("./linkedList");
-
+const { reverseList, createReversedList } = require("./reverse/reverse.js");
 const list = new LinkedList();
 
 // Test addToEnd
@@ -31,8 +31,40 @@ list.printList();
 
 // Try to remove non-existent
 list.removeFirst(100);
-list.printList(); // Should remain: 20 -> 30 -> null
-
+list.printList(); 
 
 console.log("\n== Final List ==");
 list.printList();
+
+// Test reverseList
+console.log("\n== Testing Reverse ==");
+const newList = new LinkedList();
+newList.addToEnd(1);
+newList.addToEnd(2);
+newList.addToEnd(3);
+newList.addToEnd(4);
+
+console.log("\nOriginal List:");
+newList.printList();
+
+console.log("\nReversing in place...");
+const reversed = reverseList(newList);
+console.log("Reversed List:");
+reversed.printList();
+
+// Test createReversedList
+console.log("\nCreating new reversed list...");
+const originalList = new LinkedList();
+originalList.addToEnd(5);
+originalList.addToEnd(6);
+originalList.addToEnd(7);
+
+console.log("\nOriginal List:");
+originalList.printList();
+
+const newReversed = createReversedList(originalList);
+console.log("\nNew Reversed List:");
+newReversed.printList();
+
+console.log("\nOriginal List after creating new reversed list:");
+originalList.printList();
