@@ -76,3 +76,13 @@ Design a linked list with the following operations:
 
 ![add-reversere-app](./docs/add-reversere-app.js.png)
 
+### `Merge Sorted Linked Lists`
+
+![Merge Sorted Whiteboard](./docs/mergeSorted-whiteboard.png)
+
+![Test Cases](./docs/test-mergeSort.png)
+
+![Output Example](./docs/output-mergSorted.png)
+
+
+
