@@ -103,10 +103,10 @@ Here are some images of the Revers-Characters:
 ### Description
 Create a linked list data structure with basic operations including insertion, deletion, and traversal.
 
-### Whiteboard Image
+### Whiteboard Image LinkedList
 ![Linked List Implementation](./dataStructures/LinkedList/Linked-List-Implementaions/docs/whitboard-all.png)
 
-### Whiteboard Image
+### Whiteboard Image reverse
 ![Linked List Implementation-REVERSE](./dataStructures/LinkedList/Linked-List-Implementaions/docs/reverseWhiteboard.png)
 
 

@@ -1,5 +1,5 @@
-const LinkedList = require('../linkedList');
-const { reverseList, createReversedList } = require('../reverse/reverse');
+const LinkedList = require('../LinkedList');
+const { reverseList, createReversedList } = require('../reverse/revers');
 describe('Reverse Linked List', () => {
     let list;
 
