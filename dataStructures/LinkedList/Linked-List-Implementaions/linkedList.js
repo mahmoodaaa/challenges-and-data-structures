@@ -18,44 +18,44 @@ class LinkedList {
     while(current.next!==null){
         current = current.next;
     }
-    current.next = newNode;   
- }
+    current.next = newNode;
+    }
 
 
-removeFirst(data) {
-    if (this.head === null) {
-        return;
-    }
-    if (this.head.data === data) {
-        this.head = this.head.next;
-        return;
-    }
-    let current = this.head;
-    while (current.next !== null) {
-        if (current.next.data === data) {
-            current.next = current.next.next;
+    removeFirst(data) {
+        if (this.head === null) {
             return;
         }
-        current = current.next;
+        if (this.head.data === data) {
+            this.head = this.head.next;
+            return;
+        }
+        let current = this.head;
+        while (current.next !== null) {
+            if (current.next.data === data) {
+                current.next = current.next.next;
+                return;
+            }
+            current = current.next;
+        }
     }
-}
 
- printList() {
-  let result = '';
-  let current = this.head;
-  while (current !== null) {
-    result += `${current.data} -> `;
-    current = current.next;
-  }
-  result += 'null';
-  console.log(result); // Single log with the full string
-}
+    printList() {
+        let result = '';
+        let current = this.head;
+        while (current !== null) {
+            result += `${current.data} -> `;
+            current = current.next;
+        }
+        result += 'null';
+        console.log(result); // Single log with the full string
+    }
 
-includes(data) {
+    includes(data) {
         if (this.head === null) {
             return null;
         }
-        
+
         let ptr = this.head;
         while (ptr !== null) {
             if (ptr.data === data) {
@@ -63,7 +63,7 @@ includes(data) {
             }
             ptr = ptr.next;
         }
-        
+
         return null;
     }
 
