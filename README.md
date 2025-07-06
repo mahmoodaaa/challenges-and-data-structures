@@ -124,34 +124,38 @@ Create a linked list data structure with basic operations including insertion, d
 
 ### Whiteboard Images
 - ![Linked List Implementation](./dataStructures/LinkedList/Linked-List-Implementaions/docs/whitboard-all.png)
+
+   #### Whiteboard Reverse-LinkedList
 - ![Linked List Reverse](./dataStructures/LinkedList/Linked-List-Implementaions/docs/reverseWhiteboard.png)
+
+#### Whiteboard Merge-LinkedList
 - ![Merge Sort](./dataStructures/LinkedList/Linked-List-Implementaions/docs/mergeSorted-whiteboard.png)
 
-### Merge Sort Implementation
 
-#### Description
-Implement Merge Sort algorithm for sorting a linked list.
 
-#### Approach
-1. Split the list into two halves
-2. Recursively sort each half
-3. Merge the sorted halves back together
-4. Return the sorted linked list
 
-#### Example
-```javascript
-Input: 4 -> 2 -> 1 -> 3
-Output: 1 -> 2 -> 3 -> 4
-```
 
-#### Whiteboard
-![Merge Sort Whiteboard](./dataStructures/LinkedList/Linked-List-Implementaions/docs/mergeSorted-whiteboard.png)
+#### Whiteboard Rotate k-by-LinkedList
+![Whiteboard Rotate k-by-LinkedList](./dataStructures/LinkedList/Linked-List-Implementaions/docs/rotateLinkedList-whiteboard.png)
+
+
+
+
+
+
 
 ## Contributing
+
 
 If you would like to contribute to this project, please fork this repository and submit a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
 

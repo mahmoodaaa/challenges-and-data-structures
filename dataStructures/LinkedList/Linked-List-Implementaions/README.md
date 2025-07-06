@@ -109,4 +109,4 @@ Design a linked list with the following operations:
 
 ![Output 2](./docs/output2-rotate.png)
 
-![Output 3](./docs/output3-rotate.png)
+![Output 3](./docs/ouput3-rotate.png)
