@@ -1,4 +1,4 @@
-const LinkedList = require("../linkedList.js");
+const LinkedList = require("../linkedList");
 
 function reverseList(list) {
     let prev = null;
