@@ -1,5 +1,5 @@
 const Node = require("../NodeClass");
-const LinkedList = require("../LinkedList");
+const LinkedList = require("../linkedList.js");
 
 function mergeSortedLists(list1, list2) {
     if (!list1.head) return list2;

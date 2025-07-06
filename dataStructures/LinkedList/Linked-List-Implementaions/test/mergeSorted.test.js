@@ -1,4 +1,4 @@
-const LinkedList = require("../LinkedList");
+const LinkedList = require('../linkedList.js');
 const Node = require("../NodeClass");
 const mergeSortedLists = require("../MergeSorted/mergeSorted");
 

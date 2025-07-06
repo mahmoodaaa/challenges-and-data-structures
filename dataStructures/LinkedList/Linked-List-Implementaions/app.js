@@ -1,9 +1,15 @@
-const LinkedList = require("./LinkedList");
+const LinkedList = require("./linkedList.js");
 const { reverseList, createReversedList } = require("./reverse/revers.js");
-const mergeSortedLists = require("./MergeSorted/mergeSorted");
+const mergeSortedLists = require("./MergeSorted/mergeSorted.js");
+const { rotateLeft, rotateRight } = require("./rotateLinkedList/rotateLinkedList.js");
+
+
+
+
 const list = new LinkedList();
 
 // Test addToEnd
+console.log("\n== Adding elements ==");
 console.log("== Adding elements ==");
 list.addToEnd(10);
 list.addToEnd(20);
@@ -132,3 +138,36 @@ list5.printList();
 const mergedList3 = mergeSortedLists(emptyList, list5);
 console.log("\nMerged List:");
 mergedList3.printList();
+
+console.log("\n== Testing Rotate Linked List ==");
+
+// Test Case 1: Left Rotation
+const rotateList1 = new LinkedList();
+[1, 2, 3, 4, 5, 6].forEach(num => rotateList1.addToEnd(num));
+console.log("\nOriginal list:");
+console.log(rotateList1.printList());
+
+console.log("\nRotated Left by 2:");
+rotateList1.head = rotateLeft(rotateList1.head, 2);
+console.log(rotateList1.printList()); // Expected: 3 -> 4 -> 5 -> 6 -> 1 -> 2 -> null
+
+// Test Case 2: Right Rotation
+const rotateList2 = new LinkedList();
+[10, 20, 30, 40, 50].forEach(num => rotateList2.addToEnd(num));
+console.log("\nOriginal list:");
+console.log(rotateList2.printList());
+
+console.log("\nRotated Right by 3:");
+rotateList2.head = rotateRight(rotateList2.head, 3);
+console.log(rotateList2.printList()); // Expected: 40 -> 50 -> 10 -> 20 -> 30 -> null
+
+// Test Case 3: Right Rotation with smaller list
+const rotateList3 = new LinkedList();
+[5, 10, 15, 20].forEach(num => rotateList3.addToEnd(num));
+console.log("\nOriginal list:");
+console.log(rotateList3.printList());
+
+console.log("\nRotated Right by 1:");
+rotateList3.head = rotateRight(rotateList3.head, 1);
+console.log(rotateList3.printList()); // Expected: 10 -> 15 -> 20 -> 5 -> null
+

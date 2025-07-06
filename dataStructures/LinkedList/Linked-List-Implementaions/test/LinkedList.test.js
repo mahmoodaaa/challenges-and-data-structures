@@ -1,27 +1,31 @@
-const LinkedList = require('../LinkedList');
+const LinkedList = require('../linkedList.js');
 
 
 test("add new node ", () => {
   const l = new LinkedList();
-  expect(l.addToEnd(0)).toBe();
-  l.addToEnd(1);
-  l.addToEnd(2);
+  expect(l.addToEnd(0)).toBe(undefined);
+  expect(l.addToEnd(1)).toBe(undefined);
+  expect(l.addToEnd(2)).toBe(undefined);
 
   expect(l.head.data).toBe(0);
   expect(l.head.next.data).toBe(1);
-  expect(l.addToEnd(2)).toBe();
+  expect(l.head.next.next.data).toBe(2);
 
-  expect(l.removeFirst(2)).toBe();
+  expect(l.removeFirst(2)).toBe(undefined);
+  expect(l.head.next.next).toBeNull();
 });
 
 test("insert at ", () => {
   const l = new LinkedList();
+  l.addToEnd(0);
   l.insertAt(1, 0);
   expect(l.head.data).toBe(1);
+  expect(l.head.next.data).toBe(0);
+
   l.insertAt(2, 1);
   expect(l.head.next.data).toBe(2);
+  expect(l.head.next.next.data).toBe(0);
 });
-
 
 test("print", () => {
   const l = new LinkedList();
