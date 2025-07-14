@@ -145,7 +145,7 @@ Create a linked list data structure with basic operations including insertion, d
 
 
 #### Whiteboard Stack
-- ![Stack](./dataStructures/StackQueue/stack-queue-implementation/images/Stack-Whiteboard.png)
+- ![Stack](./dataStructures/StackQueue/stack-queue-implementation/images/Stack-whiteboard.png)
 
 #### Whiteboard Queue
 - ![Queue](./dataStructures/StackQueue/stack-queue-implementation/images/Queue-whiteboard.png)
