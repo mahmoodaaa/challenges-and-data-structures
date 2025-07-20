@@ -2,6 +2,10 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-mahmoodaaa/challenges--and--data--structures-blue)](https://github.com/mahmoodaaa/challenges-and-data-structures)
 
+## Profile
+
+![Profile Photo](./whiteboard-images/profile.png)
+
 ## Table of Contents
 - [Array Reversal](#array-reversal)
 - [Most Frequent Number](#most-frequent-number)
@@ -140,9 +144,11 @@ Create a linked list data structure with basic operations including insertion, d
 
 
 
+#### Whiteboard Stack
+- ![Stack](./dataStructures/StackQueue/stack-queue-implementation/images/Stack-whiteboard.png)
 
-
-
+#### Whiteboard Queue
+- ![Queue](./dataStructures/StackQueue/stack-queue-implementation/images/Queue-whiteboard.png)
 
 ## Contributing
 
