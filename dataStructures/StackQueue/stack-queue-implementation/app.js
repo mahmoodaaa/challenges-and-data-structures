@@ -1,5 +1,7 @@
 const Stack = require('./Stack');
 const Queue = require('./Queue');
+const DeleteMiddleStack = require('./DeleteMiddleElement/DeleteMiddleStack');
+
 
 function demoStack() {
   console.log('--- Stack Demo ---');
@@ -20,6 +22,38 @@ function demoStack() {
   console.log('Is stack empty after popping all?', s.isEmpty());
   console.log('Stack final:', s.display());
 }
+
+function demoDeleteMiddle() {
+  console.log('--- Delete Middle Element Demo ---');
+  
+  // Test case for odd number of elements
+  const stackOdd = new Stack();
+  stackOdd.push(1);
+  stackOdd.push(2);
+  stackOdd.push(3);
+  stackOdd.push(4);
+  stackOdd.push(5);
+
+  console.log('\nOdd number of elements:');
+  console.log('Before Delete:', stackOdd.display());
+  DeleteMiddleStack.delete(stackOdd);
+  console.log('After Delete:', stackOdd.display());
+  
+  // Test case for even number of elements
+  const stackEven = new Stack();
+  stackEven.push(1);
+  stackEven.push(2);
+  stackEven.push(3);
+  stackEven.push(4);
+
+  console.log('\nEven number of elements:');
+  console.log('Before Delete:', stackEven.display());
+  DeleteMiddleStack.delete(stackEven);
+  console.log('After Delete:', stackEven.display());
+}
+
+
+
 
 function demoQueue() {
   console.log('--- Queue Demo ---');
@@ -43,6 +77,8 @@ function demoQueue() {
 
 function main() {
   demoStack();
+  console.log();
+  demoDeleteMiddle();
   console.log();
   demoQueue();
 }
