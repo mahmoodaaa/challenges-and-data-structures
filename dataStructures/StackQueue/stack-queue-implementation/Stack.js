@@ -32,11 +32,21 @@ class Stack {
         let current = this.top;
         let str = 'Top -> ';
         while (current) {
-            str += current.data + ' -> ';  // fixed here
+            str += current.data + ' -> ';  
             current = current.next;
         }
         str += 'null';
         return str;
+    }
+
+    size() {
+        let count = 0;
+        let current = this.top;
+        while (current) {
+            count++;
+            current = current.next;
+        }
+        return count;
     }
 }
 
