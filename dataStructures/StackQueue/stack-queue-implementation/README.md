@@ -15,6 +15,10 @@ Key operations:
 - `isEmpty()`: Checks if the stack is empty
 - `size()`: Returns the number of items in the stack
 
+![Stack Middle Delete](./images/StackMiddleDelete-whiteboard.png)
+
+![Test Delete Stack](./images/testdeleteStack.png)
+
 ## Queue Implementation
 
 A Queue is a First In First Out (FIFO) data structure. Here's how it works:

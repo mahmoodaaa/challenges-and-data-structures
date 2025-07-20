@@ -150,6 +150,12 @@ Create a linked list data structure with basic operations including insertion, d
 #### Whiteboard Queue
 - ![Queue](./dataStructures/StackQueue/stack-queue-implementation/images/Queue-whiteboard.png)
 
+
+
+#### Whiteboard Stack
+- ![Stack-deletedMiddle](./dataStructures/StackQueue/stack-queue-implementation/images/StackMiddleDelete-whiteboard.png)
+
+
 ## Contributing
 
 
