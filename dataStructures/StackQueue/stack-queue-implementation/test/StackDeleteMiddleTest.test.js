@@ -20,7 +20,7 @@ test('Delete middle from even number of elements', () => {
   s.push(3);
   s.push(4);
   DeleteMiddleStack.delete(s);
-  expect(s.display()).toBe('Top -> 4 -> 2 -> null');
+  expect(s.display()).toBe('Top -> 4 -> 2 -> 1 -> null');
 });
 
 test('Delete middle from odd number of elements', () => {
