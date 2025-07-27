@@ -8,6 +8,7 @@ A Stack is a Last In First Out (LIFO) data structure. Here's how it works:
 
 ![Stack Operations](./images/Stack-whiteboard.png)
 
+
 Key operations:
 - `push(item)`: Adds an item to the top of the stack
 - `pop()`: Removes and returns the top item from the stack
@@ -19,11 +20,25 @@ Key operations:
 
 ![Test Delete Stack](./images/testdeleteStack.png)
 
+
+![min-Stack whiteboard](./images/minStack-whitboard.png)
+
+![Test Min Stack](./images/minStack-test.png)
+
+![output](./images/minStack-output.png)
+
+
+
+
 ## Queue Implementation
 
 A Queue is a First In First Out (FIFO) data structure. Here's how it works:
 
 ![Queue Operations](./images/Queue-whiteboard.png)
+
+
+![output](./images/output.png)
+
 
 Key operations:
 - `enqueue(item)`: Adds an item to the end of the queue

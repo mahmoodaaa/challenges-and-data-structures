@@ -1,6 +1,7 @@
 const Stack = require('./Stack');
 const Queue = require('./Queue');
 const DeleteMiddleStack = require('./DeleteMiddleElement/DeleteMiddleStack');
+const MinStack = require('./MinStack/MinStack.js');
 
 
 function demoStack() {
@@ -75,12 +76,52 @@ function demoQueue() {
   console.log('Queue final:', q.display());
 }
 
+
+function demoMinStack() {
+  console.log('--- MinStack Demo ---');
+  const minStack = new MinStack();
+
+  // Push elements
+  minStack.push(15); // Top -> 15 (min: 15)
+  minStack.push(7); // Top -> 7 -> 15 (min: 7)
+  minStack.push(12); // Top -> 12 -> 7 -> 15 (min: 7)
+  minStack.push(3); // Top -> 3 -> 12 -> 7 -> 15 (min: 3)
+
+  // Print the stack
+  console.log('Stack after pushes:');
+  console.log(minStack.printStack()); // Output: Top -> 3 -> 12 -> 7 -> 15
+
+  // Get the minimum element
+  console.log('Minimum element:', minStack.getMinStack()); // min: 3
+
+  // Pop a node from the stack
+  let popped = minStack.pop(); // popped: 3
+  console.log('Popped element:', popped);
+  console.log('Stack after pop:');
+  console.log(minStack.printStack()); // Output: Top -> 12 -> 7 -> 15
+
+  // Get the new minimum element
+  console.log('New minimum element:', minStack.getMinStack()); // min: 7
+
+  // Peek the top node
+ let peeked = minStack.top; // 
+console.log('Top element:', peeked)
+
+  // Push another element
+  minStack.push(2); // Top -> 2 -> 12 -> 7 -> 15 (min: 2)
+  console.log('Stack after pushing 2:');
+  console.log(minStack.printStack()); // Output: Top -> 2 -> 12 -> 7 -> 15
+}
+
 function main() {
   demoStack();
   console.log();
   demoDeleteMiddle();
   console.log();
   demoQueue();
+  console.log();
+  demoMinStack();
 }
+
 
 main();
